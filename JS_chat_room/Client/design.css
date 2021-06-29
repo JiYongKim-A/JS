@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.UserBox{
+    background: #FFD5D2 ;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    float: right;
+}
+.UserBox label{
+    font-size: 14px;
+    margin-right:1rem;
+}
+.UserBox input{
+    border-radius: 3px;
+    border: none;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    font-size: large;
+}
+.ListBox{
+    flex: 12;
+    background:#FFE4E1;
+    overflow-y: scroll;
+}
+
+.sendBox{
+    flex: 2;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.sendBox span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.3rem;
+    width: 100%;
+}
+.sendBox-inputBox{
+    font-size: 12px;
+    height: 100%;
+    flex:8;
+    border: none;
+}
+.sendBox-sendButton{
+    flex:1;
+    background: #FF607F;
+    border: none;
+    height: 100%;
+    border-radius: 3px;
+}
+.ListBox-messageList li{
+    width: 90%;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 0.5rem;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile .user{
+    font-size: 10px;
+    margin-bottom: 0.3rem;
+}
+.profile .image{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+.message{
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 12px;
+    margin: 0 5px;
+    flex: 7;
+}
+.time{
+    font-size: 10px;
+    margin: 0 5px;
+}
+.sent{
+    
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sent .message{
+    background: #FFA5DC;
+
+}
+.changeName{
+    margin:0 auto;
+    
+}
+.changeName .user{
+    text-align: center;
+   
+}
+
+
+.recieved .message{
+    background: #FFA2AD	;
+}
+.selecting{
+    width: 15%;
+    padding: 10px;
+    border: 2px solid rgb(223, 99, 99);
+    background: url(./arrow.png) no-repeat right 50%;
+    background-size: 30px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 15px;
+    color:#000;
+    outline: #ee0619;
+    right: -30px;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+    text-align-last: center;
+    
+}
