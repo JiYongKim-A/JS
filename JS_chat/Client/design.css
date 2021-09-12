@@ -104,8 +104,9 @@ html,body{
     margin: 0 5px;
 }
 .sent{
-    
     float: right;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .sent .message{
     background: #FFA5DC;
