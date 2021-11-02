@@ -11,3 +11,7 @@
 name의 홍길동 ==> 각 사용자 명으로 변경 가능
 
 roomnum의 A ==> 채팅방은 총 A, B, C 로 총 3개 존재하며 대문자 A B C 이외는 오류발생
+
+
+실행 화면
+![채팅 앱](https://user-images.githubusercontent.com/81874493/139880023-01c974b3-75e7-4b4f-9852-548bd36052cb.gif)
