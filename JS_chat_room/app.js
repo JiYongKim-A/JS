@@ -1,16 +1,15 @@
 // 서버측 
 const express = require('express'); // express 불러옴
-const port = 5000; //포트 5000번 고정
 const http = require('http'); // http 모듈 
 const path = require('path'); //path 모듈
 const socketModule = require('socket.io'); //socket.io 모듈
 const moment = require('moment');
-
+const dotenv = require('dotenv');
 const app = express();
 const server = http.createServer(app);
 const io = socketModule(server);
 
-
+dotenv.config();
 
 // 각 채팅방 별 이름 저장 공간
 const nameList_A = []
@@ -93,4 +92,4 @@ io.on("connection", (socket)=>{
 
 })
 
-server.listen(port,()=>console.log(`${port}Port Server is open!!`))
+server.listen(process.env.PORT,()=>console.log(`${process.env.PORT}Port Server is open!!`))
