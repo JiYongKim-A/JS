@@ -27,9 +27,9 @@
 
 ## 💻 시스템 설계
 
-###  ⃝ HashMap을 통해 데이터를 저장 Repository
+###  ⃝ 유스케이스 다이어그램
 
-<img width="318" alt="스크린샷 2022-11-21 오후 5 11 46" src="https://user-images.githubusercontent.com/81874493/202999178-b9e70e48-5d30-41f8-a272-60d01e1b438f.png">
+<img width="658" alt="스크린샷 2022-12-07 오후 6 21 47" src="https://user-images.githubusercontent.com/81874493/206139356-87d629cb-ad9c-45fe-a0c3-1940056e4d10.png">
 
 <br>
 
