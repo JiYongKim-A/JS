@@ -41,7 +41,10 @@
 
 <br>
 
+###  ⃝ 코드 플로우 차트
+<img width="1432" alt="스크린샷 2022-12-07 오후 7 34 37" src="https://user-images.githubusercontent.com/81874493/206157441-67439818-6535-46df-8225-19da756a8cee.png">
 
+<br>
 
 ## 📺 프로젝트 실행 화면
   
