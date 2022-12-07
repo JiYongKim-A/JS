@@ -27,7 +27,6 @@ io.on("connection", (socket)=>{
                         // socket.id 값은 가능해서 처음부터 socket.id 에 이름을 적용시킨것 
                         
         namelist.push(naming) // namelist에 사용자 이름 넣음
-        name+=" "+naming;
         io.emit("naming", namelist, naming) // namelist를 다시 client js로 보냄
         
     })
