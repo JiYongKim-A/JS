@@ -1,10 +1,8 @@
 // 서버측 
 const express = require('express'); // express 불러옴
-const port = 3000; //포트 5000번 고정
 const http = require('http'); // http 모듈 
 const path = require('path'); //path 모듈
 const socketModule = require('socket.io'); //socket.io 모듈
-const moment = require('moment');
 const dotenv = require('dotenv');
 const app = express();
 const server = http.createServer(app);
